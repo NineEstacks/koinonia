@@ -90,6 +90,24 @@
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.dropdown-menu {
+    background-color: #001D23;
+    width: 260px;
+    
+}
+
+.dropdown-item {
+    color: whitesmoke;
+    border-bottom: 1px solid white;
+}
+
+.dropdown-item:hover {
+    background-color: #FF6F0F;
+    color: black;
+
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -97,7 +115,6 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
-    background-color: #000;
 }
 
 .navbar .navbar-nav .nav-link {
