@@ -212,6 +212,7 @@
     padding-bottom: 6rem;
     background: linear-gradient(rgba(0, 29, 35, .8), rgba(0, 29, 35, .8)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
+    
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -481,3 +482,33 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+/*Section Navigation */
+.nav-section {
+    margin-left: 250px;
+}
+.btn-nav {
+    background-color: #36454F;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 40px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  .layi {font-size: 15px}
+  
+  /* Darker background on mouse-over */
+  .btn-nav:hover {
+    background-color: #413839;
+  }
+
+  .rubutu {
+    color: #999999;
+  }
+
+  .baki {
+    font-size: 17px;
+    text-align: justify;
+  }
